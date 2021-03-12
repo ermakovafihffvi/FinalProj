@@ -1,0 +1,581 @@
+{
+    "woman": {
+        "Dresses": [
+            {
+                "id": 1,
+                "name": "Dress 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": true,
+                "featuredItem": true
+            },
+            {
+                "id": 2,
+                "name": "Dress 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": true,
+                "featuredItem": true
+            },
+            {   
+                "id": 3,
+                "name": "Dress 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": true,
+                "featuredItem": true
+            }
+        ], 
+        "Shirts/Blouses":[
+            {   
+                "id": 4,
+                "name": "Shirt 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": true
+            },
+            {   
+                "id": 5,
+                "name": "Blouse 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": true
+            },
+            {   
+                "id": 6,
+                "name": "Shirt 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": true
+            }
+        ],
+        "Tops": [
+            {   
+                "id": 7,
+                "name": "Top 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": true
+            },
+            {   
+                "id": 8,
+                "name": "Top 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": true
+            }
+        ],
+        "Knitwear": [
+            {   
+                "id": 9,
+                "name": "Sweater 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 10,
+                "name": "Cardigan 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 11,
+                "name": "Jumper 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Jeans": [
+            {   
+                "id": 12,
+                "name": "Jeans 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 13,
+                "name": "Jeans 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 14,
+                "name": "Jeans 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Basics": [
+            {   
+                "id": 15,
+                "name": "Leggins",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 16,
+                "name": "T-shirts",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 17,
+                "name": "Top",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Blazers": [
+            {   
+                "id": 18,
+                "name": "Jacket 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 19,
+                "name": "Jacket 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 20,
+                "name": "Blazer 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Sweatshirts/Hoodies": [
+            {   
+                "id": 21,
+                "name": "Hoodie 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 22,
+                "name": "Sweatshirt 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 23,
+                "name": "Hoodie 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Nightwear": [
+            {   
+                "id": 24,
+                "name": "Nightwear 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 25,
+                "name": "Nightwear 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 26,
+                "name": "Nightwear 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ]
+    },
+    "man": {
+        "Knitwear": [
+            {   
+                "id": 27,
+                "name": "Sweater 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 28,
+                "name": "Sweater 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 29,
+                "name": "Cardigan 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Jeans": [
+            {   
+                "id": 30,
+                "name": "Jeans 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 31,
+                "name": "Jeans 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 32,
+                "name": "Jeans 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Basics": [
+            {   
+                "id": 33,
+                "name": "Top 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 34,
+                "name": "Top 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 35,
+                "name": "Top 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Sweatshirts/Hoodies": [
+            {   
+                "id": 36,
+                "name": "Hoodie 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 37,
+                "name": "Hoodie 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 38,
+                "name": "Hoodie 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ]
+    }, 
+    "kids": {
+        "Outwear": [
+            {   
+                "id": 39,
+                "name": "Jacket",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 40,
+                "name": "Windbreaker",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 41,
+                "name": "Gilet",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Sportwear": [
+            {   
+                "id": 42,
+                "name": "Tights",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 43,
+                "name": "Jacket",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 44,
+                "name": "Shirt",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Clothing": [
+            {   
+                "id": 45,
+                "name": "Jeans",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 46,
+                "name": "Sweatshirt",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 47,
+                "name": "top",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ]
+    },
+    "accessories": {
+        "Hats": [
+            {   
+                "id": 48,
+                "name": "Hat 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 49,
+                "name": "Hat 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 50,
+                "name": "Hat 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Bags": [
+            {   
+                "id": 51,
+                "name": "Bag 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 52,
+                "name": "Bag 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 53,
+                "name": "Bag 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Poncho": [
+            {   
+                "id": 54,
+                "name": "Poncho 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 55,
+                "name": "Poncho 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 56,
+                "name": "Poncho 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ],
+        "Belts": [
+            {   
+                "id": 57,
+                "name": "Belt 1",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 58,
+                "name": "Belt 2",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            },
+            {   
+                "id": 59,
+                "name": "Belt 3",
+                "price": 5,
+                "img": "",
+                "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+                "sale": false,
+                "featuredItem": false
+            }
+        ]
+    }
+}
