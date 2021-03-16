@@ -1,9 +1,9 @@
-﻿import { Products } from "./products.js";
+﻿import { AlsoLike } from "./alsoLike.js";
 //import { Cart } from "./cart.js";
 
 const app = Vue.createApp({
     components: {
-        Products,//не забыть в html дописать 
+        'also_like': AlsoLike, //не забыть в html дописать 
         //Cart,
     },
     provide() {

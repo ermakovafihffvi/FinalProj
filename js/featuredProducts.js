@@ -1,22 +1,21 @@
-import {ProductItem} from "./productItem.js";
+﻿import { ProductItem } from "./productItem.js";
 
-export const Products = {
-    //inject: ['API', 'getJson'],
+export const FeaturedProducts = {
     inject: ['getJson'],
     components: {
         ProductItem
     },
     data() {
         return {
-            products: [],
+            featuredProducts: [],
         }
     },
     mounted() {
         this.getJson(`myCatalog.json`)
             .then(data => {
                 for (let el of data) {
-                    if (!el.also_like) {
-                        this.products.push(el);
+                    if (el.featured) {
+                        this.featuredProducts.push(el);
                     }
                 }
             });
@@ -24,7 +23,7 @@ export const Products = {
     template: `
         <div class="products">
                 <ProductItem 
-                v-for="el of products" 
+                v-for="el of featuredProducts" 
                 :key="el.id_product"
                 :product="el"
                 >

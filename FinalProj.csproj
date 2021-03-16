@@ -105,14 +105,19 @@
     <Content Include="img\slider5.jpg" />
     <Content Include="img\super_sale.jpg" />
     <Content Include="index.html" />
+    <Content Include="js\alsoLike.js" />
+    <Content Include="js\alsoLikeItem.js" />
     <Content Include="js\cart.js" />
     <Content Include="js\cartItem.js" />
     <Content Include="js\catalog.js" />
+    <Content Include="js\featuredProducts.js" />
     <Content Include="js\index.js" />
     <Content Include="js\main.js" />
     <Content Include="js\productItem.js" />
     <Content Include="js\products.js" />
     <Content Include="catalog.html" />
+    <Content Include="js\shopping.js" />
+    <Content Include="js\singlePage.js" />
     <Content Include="shopping.html" />
     <Content Include="SinglePage.html" />
     <Content Include="styles\style_chekout.css" />
@@ -135,13 +140,20 @@
   <ItemGroup>
     <Content Include="img\slider1%282%29.psd" />
     <Content Include="myCatalog.json" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <Content Include="styles\style_chekout.scss" />
     <Content Include="styles\style_index.scss" />
     <Content Include="styles\style_main.scss" />
     <Content Include="styles\style_product.scss" />
     <Content Include="styles\style_shopping.scss" />
-    <Content Include="styles\style_singlepage.scss" />
+    <Content Include="styles\style_singlepage.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>style_singlepage1.css</LastGenOutput>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

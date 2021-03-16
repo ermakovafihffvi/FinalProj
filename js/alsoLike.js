@@ -1,34 +1,33 @@
-import {ProductItem} from "./productItem.js";
+﻿import { AlsoLikeItem } from "./alsoLikeItem.js";
 
-export const Products = {
-    //inject: ['API', 'getJson'],
+export const AlsoLike = {
     inject: ['getJson'],
     components: {
-        ProductItem
+        AlsoLikeItem
     },
     data() {
         return {
-            products: [],
+            alsoLikeProducts: [],
         }
     },
     mounted() {
         this.getJson(`myCatalog.json`)
             .then(data => {
                 for (let el of data) {
-                    if (!el.also_like) {
-                        this.products.push(el);
+                    if (el.also_like) {
+                        this.alsoLikeProducts.push(el);
                     }
                 }
             });
     },
     template: `
         <div class="products">
-                <ProductItem 
-                v-for="el of products" 
+                <AlsoLikeItem 
+                v-for="el of alsoLikeProducts" 
                 :key="el.id_product"
                 :product="el"
                 >
-                </ProductItem>
+                </AlsoLikeItem>
             </div>
     `
 };

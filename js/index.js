@@ -1,18 +1,13 @@
 const browseAllProducts = document.querySelector('.browseAllProducts');
-browseAllProducts.addEventListener('click', () => {window.location = "./product.html"});
+browseAllProducts.addEventListener('click', () => {window.location = "./catalog.html"});
 
-//import {Cart} from "./Cart.js";
-import { Products } from "./products.js";
+import { FeaturedProducts } from "./featuredProducts.js";
+import { Cart } from "./cart.js";
 
 const app = Vue.createApp({
     components: {
-        //Cart,
-        Products
-    },
-    data() {
-        return {
-            
-        }
+        'featured_products': FeaturedProducts, //не забыть в html дописать 
+        Cart,
     },
     provide() {
         return {
@@ -20,9 +15,9 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        getJson(url){
+        getJson(url) {
             return fetch(url)
-                  .then(result => result.json())
+                .then(result => result.json())
         }
     },
 });
